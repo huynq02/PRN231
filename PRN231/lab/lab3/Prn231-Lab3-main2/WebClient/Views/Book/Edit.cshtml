@@ -1,0 +1,154 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="d-flex align-items-center justify-content-center">
+    <form id="EditBook">
+        <h2 class="text-center">Edit</h2>
+        <div class="form-group row m-1">
+            <label class="col-4" for="BookId">ID:</label>
+            <div class="col-8" id="BookId"></div>
+        </div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="Title">Title</label>
+            <input class="col-8" id="Title" name="Title" />
+        </div>
+
+        <div class="form-group row m-1">
+            <label class="col-4" for="Price"> Unit of Price </label>
+            <input class="col-8" type="number" id="Price" name="Price" />
+        </div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="Author"> Author</label>
+            <input class="col-8" id="Author" name="Author" />
+        </div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="ISBN">ISBN</label>
+            <input class="col-8" id="ISBN" name="ISBN" />
+        </div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="PressId">Press</label>
+            <select class="col-8" id="PressSelect" name="PressId"></select>
+        </div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="City">City</label>
+            <input class="col-8" id="City" name="City" />
+        </div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="Street">Street</label>
+            <input class="col-8" id="Street" name="Street" />
+        </div>
+        <div class="form-group row m-1">
+            <input type="submit" value="Edit" class="btn btn-success" />
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        var urlParams = new URLSearchParams(window.location.search);
+        var id = urlParams.get('id');
+
+        showBookDetail(id);
+        GetPress();
+
+        function showBookDetail(id) {
+
+            var token = sessionStorage.getItem('token')
+            $.ajax({
+                url: 'https://localhost:7065/api/Book/' + id,
+                type: "GET",
+                headers: {
+                    'Authorization': 'Bearer ' + token,
+                    'Content-Type': 'application/json'
+                },
+                success: function (result, status, xhr) {
+
+                    $('#BookId').text(result["id"]);
+                    $('#Title').val(result["title"]);
+                    $('#Price').val(result["price"]);
+                    $('#Author').val(result["author"]);
+                    $('#ISBN').val(result["isbn"]);
+                    $('#City').val(result["location"]["city"]);
+                    $('#Street').val(result["location"]["street"]);
+                    return result["pressId"];
+                },
+                error: function (xhr, status, error) {
+                    console.log(status)
+                }
+            });
+        }
+
+        function GetPress() {
+
+            var token = sessionStorage.getItem('token')
+            $.ajax({
+                url: "https://localhost:7065/api/Press",
+                type: "GET",
+                headers: {
+                    'Authorization': 'Bearer ' + token,
+                    'Content-Type': 'application/json'
+                },
+                success: function (result, status, xhr) {
+                    $.each(result, function (index, data) {
+                        var option = document.createElement('option');
+                        option.value = data["id"];
+                        option.textContent = data["name"];
+                        document.getElementById('PressSelect').appendChild(option);
+
+                    })
+
+                },
+                error: function (xhr, status, error) {
+                    console.log(status)
+                }
+            });
+        }
+
+        //Edit book
+        $('#EditBook').submit(function (event) {
+            event.preventDefault();
+
+            var urlParams = new URLSearchParams(window.location.search);
+            var id = urlParams.get('id');
+
+            var token = sessionStorage.getItem('token')
+
+            $.ajax({
+                url: 'https://localhost:7065/api/Book/' + id,
+                type: 'PUT',
+                headers: {
+                    'Authorization': 'Bearer ' + token,
+                    'Content-Type': 'application/json'
+                },
+
+                data: JSON.stringify({
+                    id: id,
+                    title: $('#Title').val(),
+                    price: $('#Price').val(),
+                    author: $('#Author').val(),
+                    isbn: $('#ISBN').val(),
+                    pressId: $('#PressSelect').val(),
+                    location: {
+                        city: $('#City').val(),
+                        street: $('#Street').val()
+                    }
+                }),
+                success: function (response) {
+                    window.location.href = '/Book';
+                },
+                error: function () {
+                    console.error('Edit failed.');
+                }
+            });
+        });
+    })
+</script>

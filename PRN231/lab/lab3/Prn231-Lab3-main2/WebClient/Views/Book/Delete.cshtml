@@ -1,0 +1,124 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="d-flex align-items-center justify-content-center">
+    <form id="DeleteBook">
+    <h2 class="text-center">Delete</h2>
+   
+        <table class="table table-borderless">
+            <tbody>
+                <tr>
+                    <td><strong>Book ID:</strong></td>
+                    <td id="BookId"></td>
+                </tr>
+
+                <tr>
+                    <td>Title:</td>
+                    <td id="BookTitle"></td>
+                </tr>
+
+                <tr>
+                    <td>Price:</td>
+                    <td id="BookPrice"></td>
+                </tr>
+
+                <tr>
+                    <td>Author:</td>
+                    <td id="BookAuthor"></td>
+                </tr>
+
+                <tr>
+                    <td>ISBN:</td>
+                    <td id="BookISBN"></td>
+                </tr>
+
+                <tr>
+                    <td>City:</td>
+                    <td id="BookCity"></td>
+                </tr>
+
+                <tr>
+                    <td>Street:</td>
+                    <td id="BookStreet"></td>
+                </tr>
+            </tbody>
+
+        </table>
+    
+    <div class="row">
+        <strong>Do you want to delete <p id="BookDeletTitle"></p></strong>
+    </div>
+    
+        <div class="form-group row m-1">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+        </div>
+    </form>
+
+</div>
+
+
+<script type="text/javascript">
+
+    var urlParams = new URLSearchParams(window.location.search);
+    var id = urlParams.get('id');
+
+    showBookDetail(id);
+
+    function showBookDetail(id) {
+
+        var token = sessionStorage.getItem('token')
+        $.ajax({
+            url: 'https://localhost:7065/api/Book/' + id,
+            type: "GET",
+            headers: {
+                'Authorization': 'Bearer ' + token,
+                'Content-Type': 'application/json'
+            },
+            success: function (result, status, xhr) {
+
+                $('#BookId').text(result["id"]) ;
+                $('#BookTitle').text(result["title"]);
+                document.getElementById('BookPrice').textContent = result["price"];
+                document.getElementById('BookAuthor').textContent = result["author"];
+                document.getElementById('BookISBN').textContent = result["isbn"];
+                document.getElementById('BookCity').textContent = result["location"]["city"];
+                document.getElementById('BookStreet').textContent = result["location"]["street"];
+
+                document.getElementById('BookDeletTitle').textContent = result["title"];
+            },
+            error: function (xhr, status, error) {
+                console.log(status)
+            }
+        });
+    }
+
+    // Delete book
+    $(document).ready(function () {
+        $('#DeleteBook').submit(function (event) {
+            event.preventDefault();
+            var token = sessionStorage.getItem('token')
+
+            $.ajax({
+                url: 'https://localhost:7065/api/Book/' + id,
+                type: 'DELETE',
+                headers: {
+                    'Authorization': 'Bearer ' + token,
+                    'Content-Type': 'application/json'
+                },
+
+                success: function (response) {
+                    window.location.href = '/Book';
+                },
+                error: function () {
+                    console.error('Delete Book failed.');
+                }
+            });
+        });
+    });
+
+</script>

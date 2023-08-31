@@ -1,0 +1,75 @@
+﻿@page
+@model Q2.Pages.MovieModel
+@{
+}
+@if (model.moviesDto.Count > 0)
+{
+<div id="authourslist">
+    <h1>
+        Author
+    </h1>
+    @{
+        @foreach (var movi in Model.moviesDto)
+        }
+        <a>
+            @movi.StudioName
+        </a>
+    </div>
+    <div>
+<div>}
+<form method="post">
+    <h1>Add new Moview</h1>
+        <div>
+            <label for="movieId">Book ID:</label>
+            <input type="text" id="movieId" name="MovieId" />
+        </div>
+        <div>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="Title" />
+        </div>
+        <div>
+            <label for="publishDate">PublishDate:</label>
+            <input id="publishDate" name="PublishDate" type="datetime-local" />
+        </div>
+        <select id="studios" name="SelectedStudios">
+            <option value="">-- Select an Studio --</option>
+            @foreach (var studio in Model.AllStudio)
+        {
+            <option value="@studio.studioId">@studio.studioName</option>
+        }
+    </select>
+    <div>
+        <input type="submit" value="Create" />
+    </div>
+</form>
+
+<div class="row">
+<div class="col">
+@if (Model.moviesDto.Count > 0)
+{
+<table class="table">
+<thead>
+<tr>
+<td>BookId</td>
+<td>Title</td>
+<td>Author</td>
+</tr>
+</thead>
+<tbody>
+@foreach (var o in Model.moviesDto)
+{
+<tr>
+<td>@o.MovieId</td>
+<td>@o.Title</td>
+<td>@o.PublishDate</td>
+ <td>@o.StudioName</td>
+
+</tr>
+}
+</tbody>
+</table>
+}
+</div>
+
+</div> 
+</div>

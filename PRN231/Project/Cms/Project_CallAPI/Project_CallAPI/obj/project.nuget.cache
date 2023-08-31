@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SKS0wrrf8NN/NyQE14wSJWv0k2VTPc3KGhLKSkBmTNexbDFX+iQOOuC6/onkoMY5E/eOUJSkbjlwIPniaNacWQ==",
+  "success": true,
+  "projectFilePath": "E:\\FPT University\\PRN231\\Project\\Cms\\Project_CallAPI\\Project_CallAPI\\Project_CallAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Huy\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

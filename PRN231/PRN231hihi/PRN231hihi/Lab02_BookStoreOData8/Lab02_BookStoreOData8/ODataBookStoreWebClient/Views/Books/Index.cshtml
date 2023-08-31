@@ -1,0 +1,95 @@
+﻿@model IEnumerable<Entity.Book>
+
+@{
+    ViewData["Title"] = "Index";
+    var index = 0;
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ISBN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Street)
+            </th>
+@*            <th>
+                PressName
+            </th>
+            <th>
+                Category
+            </th>*@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @(++index)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ISBN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Street)
+            </td>
+                @*@if (item.Press != null)
+                {
+                    <td>
+                        @item.Press.Name
+                    </td>
+                    <td>
+                        @item.Press.Category
+                    </td>
+                }
+                else
+                {
+                    <td></td>
+                    <td></td>
+                }*@
+            <td>
+                @Html.ActionLink("Update", "Update", new { id=item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id }) |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Deleteee</a> | 
+                    <a asp-action="Update" asp-route-id="@item.Id">UPdateee</a> 
+
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

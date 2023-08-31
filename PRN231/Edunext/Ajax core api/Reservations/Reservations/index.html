@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title> All Reservation</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <style>
+        table a, table img {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <h2>All Reservations</h2>
+        <a herf="AddReservation.html" class="btn btn-sm btn-primary">Add Reservations</a>
+        <a herf="GetReservation.html" class="btn btn-sm btn-primary">Get Reservations</a>
+        <table class="table table-sm table-striped table-bordered m-2">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Start Location</th>
+                    <th>End Location</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <script type="text/javascript">
+            $(document).ready(function () {
+                ShowAllReservation();
+
+                function ShowAllReservation()
+                {
+                    $.ajax({
+                        url: "https://localhost:44363/api/Reservations",
+                        type : "GET",
+                        contentType: "application/json";
+                        succsess: function (result, status, xhr)
+                        {
+                            $.each(result, function (index, value) {
+                                $("tbody").append($("<tr>"));
+                                appendElement = $("tbody tr").last();
+                                appendElement.append($("<td>").html(value["id"]));
+                                appendElement.append($("<td>").html(value["name"]));
+                                appendElement.append($("<td>").html(value["startLocation"]));
+                                appendElement.append($("<td>").html(value["endLocation"]));
+                                appendElement.append($("<td>").html("<a herf=\"UpdateReservationPatch.html?id=" +
+                                    value["id"] + "\"><img src=\"icon/edit.png\"/></a>"));
+                                appendElement.append($("<td>").html("<img class=\"delete\" src=\"icon/close/png\" />"));
+                            });
+                        },
+                        Error: function (xhr, status, error) {
+                            console.log(xhr)
+                        }
+                    });
+
+                };
+                $("table").on("click", "img.delete", function () {
+                        var reservationId = $(this).parents("tr").find("td:nth-child(1)").text();
+                        $.ajax({
+                            url: "https://localhost:44363/api/Reservations/" + reservationId,
+                            type: "DELETE",
+                            contentType: "application/json",
+                            success: function (result, status, xhr) {
+                                ShowAllReservation();
+                            },
+                            error: function (xhr, status, error) {
+                                console.log(xhr);
+                            }
+                        });
+                });
+            });
+    </script>
+    <script type="text/javascript">
+            ShowAllReservation();
+            function ShowAllReservation() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.open("GET", "https://localhost:44363/api/Reservations", true);
+                xhttp.send();
+
+                xhttp.onreadystatechange = function () {
+                    var tbody = document.getElementById("apiTable").querySelector("tbody");
+                    tbody.innerHTML = "";
+                    if (this.readyState == 4 && this.status == 200) {
+                        JSON.parse(this.responseText).forEach(function (data, index) {
+                            tbody.innerHTML += "<tr><td>" + data.id + "</td>" +
+                                "<td>" + data.name + "</td>" +
+                                "<td>" + data.startLocation + "</td>" +
+                                "<td>" + data.endLocation + "</td>" +
+                                "<td><a href=\"UpdateReservationPatch.html?id=" + data.id +
+                                "\"><img src=\"icon/edit.png\" /></a></td>" +
+                                "<td><img class=\"delete\" src=\"icon/close.png\"/></td></tr>";
+                        });
+                        CreateClickEvent();
+                    }
+                }
+            }
+            function CreateClickEvent() {
+                var dimg = document.getElementsByClassName("delete");
+                for (var i = 0; i < dimg.length; i++) {
+                    dimg[i].addEventListener("click", function (e) {
+
+                        var xhttp = new XMLHttpRequest();
+
+                        xhttp.onreadystatechange = function () {
+                            ShowAllReservation();
+                        };
+                        var resId = e.target.closest("tr").childNodes[0].innerHTML;
+                        xhttp.open("DELETE", "https://localhost:44363/api/Reservations/" + resId, true);
+                        xhttp.send();
+                    });
+                }
+            }
+    </script>
+</body>
+</html>

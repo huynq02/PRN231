@@ -1,0 +1,51 @@
+﻿@model IEnumerable<BusinessObjects.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="search d-flex">
+    <input type="text" id="nameSearch" />
+
+    <button onclick="searchProduct()">Search</button>
+
+    <button type="button" id="btnDelete" class="btn btn-danger">Delete</button>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitsInStock)
+            </th>
+            <th class="unit-price-column">
+                @Html.DisplayNameFor(model => model.UnitPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+
+    <div id="pagination">
+        <!-- Các nút phân trang sẽ được thêm vào đây -->
+    </div>
+</table>
+
+<style>
+    #pagingId{
+        position: fixed;
+        bottom: 50px;
+    }
+</style>
+@section Scripts{
+    <script src="~/js/products/productscript.js"></script>
+}
+

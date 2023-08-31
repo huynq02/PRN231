@@ -1,0 +1,35 @@
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\Entity\bin\Debug\net6.0\Entity.deps.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\Entity\bin\Debug\net6.0\Entity.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\Entity\bin\Debug\net6.0\Entity.pdb
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.csproj.AssemblyReference.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.AssemblyInfoInputs.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.AssemblyInfo.cs
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.csproj.CoreCompileInputs.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\Entity\obj\Debug\net6.0\refint\Entity.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.pdb
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\Entity\obj\Debug\net6.0\ref\Entity.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\Entity\bin\Debug\net6.0\Entity.deps.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\Entity\bin\Debug\net6.0\Entity.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\Entity\bin\Debug\net6.0\Entity.pdb
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.csproj.AssemblyReference.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.AssemblyInfoInputs.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.AssemblyInfo.cs
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.csproj.CoreCompileInputs.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\refint\Entity.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.pdb
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\ref\Entity.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\Entity\bin\Debug\net6.0\Entity.deps.json
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\Entity\bin\Debug\net6.0\Entity.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\Entity\bin\Debug\net6.0\Entity.pdb
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.AssemblyInfoInputs.cache
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.AssemblyInfo.cs
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.csproj.CoreCompileInputs.cache
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\refint\Entity.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\Entity.pdb
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\Entity\obj\Debug\net6.0\ref\Entity.dll

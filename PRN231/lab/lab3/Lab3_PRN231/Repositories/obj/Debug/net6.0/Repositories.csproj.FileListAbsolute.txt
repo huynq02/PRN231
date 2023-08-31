@@ -1,0 +1,90 @@
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\bin\Debug\net6.0\appsettings.json
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\bin\Debug\net6.0\Repositories.deps.json
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\bin\Debug\net6.0\Repositories.dll
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\bin\Debug\net6.0\Repositories.pdb
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\bin\Debug\net6.0\BusinessObjects.dll
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\bin\Debug\net6.0\DataAccess.dll
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\bin\Debug\net6.0\BusinessObjects.pdb
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\obj\Debug\net6.0\Repositories.csproj.AssemblyReference.cache
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\obj\Debug\net6.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfoInputs.cache
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfo.cs
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\obj\Debug\net6.0\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\obj\Debug\net6.0\Repositories.csproj.CopyComplete
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\obj\Debug\net6.0\Repositories.dll
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\obj\Debug\net6.0\refint\Repositories.dll
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\obj\Debug\net6.0\Repositories.pdb
+C:\Users\Thinkpad\Downloads\Lab01_ASP.NETCoreWebAPI\Repositories\obj\Debug\net6.0\ref\Repositories.dll
+E:\C# project\Lab3_PRN231\Repositories\bin\Debug\net6.0\appsettings.json
+E:\C# project\Lab3_PRN231\Repositories\bin\Debug\net6.0\Repositories.deps.json
+E:\C# project\Lab3_PRN231\Repositories\bin\Debug\net6.0\Repositories.dll
+E:\C# project\Lab3_PRN231\Repositories\bin\Debug\net6.0\Repositories.pdb
+E:\C# project\Lab3_PRN231\Repositories\bin\Debug\net6.0\BusinessObjects.dll
+E:\C# project\Lab3_PRN231\Repositories\bin\Debug\net6.0\DataAccess.dll
+E:\C# project\Lab3_PRN231\Repositories\bin\Debug\net6.0\DataAccess.pdb
+E:\C# project\Lab3_PRN231\Repositories\bin\Debug\net6.0\BusinessObjects.pdb
+E:\C# project\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.csproj.AssemblyReference.cache
+E:\C# project\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# project\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfoInputs.cache
+E:\C# project\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfo.cs
+E:\C# project\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.csproj.CoreCompileInputs.cache
+E:\C# project\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.csproj.CopyComplete
+E:\C# project\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.dll
+E:\C# project\Lab3_PRN231\Repositories\obj\Debug\net6.0\refint\Repositories.dll
+E:\C# project\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.pdb
+E:\C# project\Lab3_PRN231\Repositories\obj\Debug\net6.0\ref\Repositories.dll
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\appsettings.json
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\Repositories.deps.json
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\Repositories.dll
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\Repositories.pdb
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\BusinessObjects.dll
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\DataAccess.dll
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\DataAccess.pdb
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\BusinessObjects.pdb
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.csproj.AssemblyReference.cache
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfoInputs.cache
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfo.cs
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.csproj.CoreCompileInputs.cache
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.csproj.CopyComplete
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.dll
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\refint\Repositories.dll
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.pdb
+E:\Lab3\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\ref\Repositories.dll
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\appsettings.json
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\Repositories.deps.json
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\Repositories.dll
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\Repositories.pdb
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\BusinessObjects.dll
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\DataAccess.dll
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\DataAccess.pdb
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\bin\Debug\net6.0\BusinessObjects.pdb
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.csproj.AssemblyReference.cache
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfoInputs.cache
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfo.cs
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.csproj.CoreCompileInputs.cache
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.csproj.CopyComplete
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.dll
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\refint\Repositories.dll
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.pdb
+D:\FULearning\Summer2023\PRN231_BLock5\Lab3-PRN231\Lab3_PRN231\Repositories\obj\Debug\net6.0\ref\Repositories.dll
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\bin\Debug\net6.0\appsettings.json
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\bin\Debug\net6.0\Repositories.deps.json
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\bin\Debug\net6.0\Repositories.dll
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\bin\Debug\net6.0\Repositories.pdb
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\bin\Debug\net6.0\BusinessObjects.dll
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\bin\Debug\net6.0\DataAccess.dll
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\bin\Debug\net6.0\DataAccess.pdb
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\bin\Debug\net6.0\BusinessObjects.pdb
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.csproj.AssemblyReference.cache
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfoInputs.cache
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfo.cs
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.csproj.CoreCompileInputs.cache
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.csproj.CopyComplete
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.dll
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\obj\Debug\net6.0\refint\Repositories.dll
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\obj\Debug\net6.0\Repositories.pdb
+E:\FPT University\PRN231\lab\lab3\Lab3_PRN231\Repositories\obj\Debug\net6.0\ref\Repositories.dll

@@ -1,0 +1,114 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="d-flex align-items-center justify-content-center">
+    <form id="CreateBook">
+        <h2 class="text-center">Create</h2>
+        <div class="form-group row m-1">
+            <label class="col-4" for="Title">Title</label>
+            <input class="col-8" id="Title" name="Title"/>
+        </div>
+
+        <div class="form-group row m-1">
+            <label class="col-4" for="Price"> Unit of Price </label>
+            <input class="col-8" type="number" id="Price" name="Price"/>
+        </div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="Author"> Author</label>
+            <input class="col-8" id="Author" name="Author"/>
+        </div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="ISBN">ISBN</label>
+            <input class="col-8" id="ISBN" name="ISBN"/>
+        </div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="PressId">Press</label>
+            <select class="col-8" id="PressSelect" name="PressId"> </select>
+        </div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="City">City</label>
+            <input class="col-8" id="City" name="City" />
+        </div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="Street">Street</label>
+            <input class="col-8" id="Street" name="Street"/>
+        </div>
+        <div class="form-group row m-1">
+            <input type="submit" value="Create" class="btn btn-success" />
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        GetPress();
+
+        function GetPress() {
+
+            var token = sessionStorage.getItem('token')
+            $.ajax({
+                url: "https://localhost:7065/api/Press",
+                type: "GET",
+                headers: {
+                    'Authorization': 'Bearer ' + token,
+                    'Content-Type': 'application/json'
+                },
+                success: function (result, status, xhr) {
+                    $.each(result, function (index, data) {
+                        console.log(data);
+                        var option = document.createElement('option');
+                        option.value = data["id"]; 
+                        option.textContent = data["name"]; 
+                        document.getElementById('PressSelect').appendChild(option);
+
+                    })
+                },
+                error: function (xhr, status, error) {
+                    console.log(status)
+                }
+            });
+        }
+        
+        //Create book
+        $('#CreateBook').submit(function (event) {
+            event.preventDefault();
+
+            var token = sessionStorage.getItem('token')
+
+            $.ajax({
+                url: 'https://localhost:7065/api/Book',
+                type: 'POST',
+                headers: {
+                    'Authorization': 'Bearer ' + token,
+                    'Content-Type': 'application/json'
+                },
+
+                data: JSON.stringify({
+                    title: $('#Title').val(),
+                    price: $('#Price').val(),
+                    author: $('#Author').val(),
+                    isbn: $('#ISBN').val(),
+                    pressId: $('#PressSelect').val(),
+                    location:{
+                        city: $('#City').val(),
+                        street: $('#Street').val()
+                    }
+                }),
+                success: function (response) {
+                    window.location.href = '/Book';
+                },
+                error: function () {
+                    console.error('Create failed.');
+                }
+            });
+        });
+    })
+</script>

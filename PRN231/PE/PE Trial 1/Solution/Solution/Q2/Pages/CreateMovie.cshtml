@@ -1,0 +1,38 @@
+﻿@page
+@model Q2.Pages.CreateMovieModel
+@{
+}
+<form method="post">
+    <div>
+        <label for="movieId">Book ID:</label>
+        <input type="text" id="movieId" name="MovieId" />
+    </div>
+    <div>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="Title" />
+    </div>
+    <div>
+        <label for="publishDate">PublishDate:</label>
+        <input id="publishDate" name="PublishDate" type="datetime-local" />
+    </div>
+    @*<div>
+    <label for="authors">Select Author:</label>
+    <select id="authors" name="SelectedAuthors" multiple>
+    @foreach (var author in Model.AllAuthor)
+    {
+    <option value="@author.authorId">@author.name</option>
+    }
+    </select>
+    </div>*@
+
+    <select id="studios" name="SelectedStudios">
+        <option value="">-- Select an Studio --</option>
+        @foreach (var studio in Model.AllStudio)
+        {
+            <option value="@studio.studioId">@studio.studioName</option>
+        }
+    </select>
+    <div>
+        <input type="submit" value="Create" />
+    </div>
+</form>

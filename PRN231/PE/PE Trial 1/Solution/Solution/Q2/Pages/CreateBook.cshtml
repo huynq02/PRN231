@@ -1,0 +1,34 @@
+﻿@page
+@model Q2.Pages.CreateBookModel
+@{
+}
+<form method="post">
+    <div>
+        <label for="bookId">Book ID:</label>
+        <input type="text" id="bookId" name="BookId" />
+    </div>
+    <div>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="Title" />
+    </div>
+    @*<div>
+        <label for="authors">Select Author:</label>
+        <select id="authors" name="SelectedAuthors" multiple>
+            @foreach (var author in Model.AllAuthor)
+            {
+                <option value="@author.authorId">@author.name</option>
+            }
+        </select>
+    </div>*@
+
+    <select id="authors" name="SelectedAuthors">
+        <option value="">-- Select an Author --</option>
+        @foreach (var author in Model.AllAuthor)
+        {
+            <option value="@author.authorId">@author.name</option>
+        }
+    </select>
+    <div>
+        <input type="submit" value="Create" />
+    </div>
+</form>

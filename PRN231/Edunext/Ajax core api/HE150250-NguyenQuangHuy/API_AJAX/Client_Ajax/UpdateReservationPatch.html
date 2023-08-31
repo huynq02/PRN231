@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=" viewport" content="width=device-width" />
+    <title>Get Reservation</title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="lib/jquery/dist/jquery.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <h2>Update</h2> <a href="Index.html" class="btn btn-sm btn-primary">Back</a>
+        <div class="form-group">
+            <label for="id">Id:</label>
+            <input type="text" class="form-control" id="id" readonly />
+        </div>
+        <div class="form-group">
+            <label for="Name">Name:</label>
+            <input type="text" class="form-control" id="name" />
+        </div>
+        <div class="form-group">
+            <label for="StartLocation">StartLocation:</label>
+            <input type="text" class="form-control" id="startLocation" />
+        </div>
+        <div class="form-group">
+            <label for="EndLocation">EndLocation:</label>
+            <input type="text" class="form-control" id="endLocation" />
+        </div>
+        <div class="text-center panel-body">
+            <button type="submit" class="btn btn-sm btn-primary" id="UpdateButton">Update</button>
+        </div>
+        <div style="display:none" id="resultDiv">
+            <h2>Reservation</h2>
+            <table class="table table-sm table-striped table-bordered m-2">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>StartLocation</th>
+                        <th>EndLocation</th>
+                    </tr>
+                </thead>
+                <tbody id="myBody"></tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            GetReservation();
+            function GetReservation() {
+                let params = (new URL(document.location)).searchParams;
+                let id = params.get("id");
+
+                $.ajax({
+                    url: "http://localhost:5252/api/Reservation/" + id,
+                    type: "get",
+                    contentType: "application/json",
+                    success: function (result, status, xhr) {
+                        $("#id").val(result["id"]);
+                        $("#name").val(result["name"]);
+                        $("#startLocation").val(result["startLocation"]);
+                        $("#endLocation").val(result["endLocation"]);
+                    },
+                    error: function (result, status, xhr) {
+                        alert("Failed!");
+                    }
+                });
+            }
+        });
+
+        $("#UpdateButton").click(function (e) {
+            let params = (new URL(document.location)).searchParams;
+            let id = params.get("id");
+
+            data = new FormData();
+            data.append("id", $("#id").val());
+            data.append("name", $("#name").val());
+            data.append("startLocation", $("#startLocation").val());
+            data.append("endLocation", $("#endLocation").val());
+
+            $.ajax({
+                url: "http://localhost:5252/api/Reservation/",
+                type: "put",
+                data: data,
+                processData: false,
+                contentType: false,
+                success: function (result, status, xhr) {
+                    var str = "<tr><td>" + result["id"] + "</td><td>" + result["name"] + "</td><td>" +
+                        result["startLocation"] + "</td><td>" + result["endLocation"] + "</td></tr>";
+                    $("#myBody").append(str);
+                    $("#resultDiv").show();
+                },
+                error: function (result, status, xhr) {
+                    alert("Failed!");
+                }
+            });
+        });
+    </script>
+</body>
+</html>

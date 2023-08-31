@@ -1,0 +1,153 @@
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.csproj.AssemblyReference.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.GeneratedMSBuildEditorConfig.editorconfig
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.AssemblyInfoInputs.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.AssemblyInfo.cs
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.csproj.CoreCompileInputs.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.MvcApplicationPartsAssemblyInfo.cs
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.MvcApplicationPartsAssemblyInfo.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\appsettings.Development.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\appsettings.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.exe
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.deps.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.runtimeconfig.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.pdb
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.AspNetCore.OData.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.OData.Core.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.OData.Edm.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Spatial.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Entity.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Entity.pdb
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets\msbuild.ODataBookStore.Microsoft.AspNetCore.StaticWebAssets.props
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets\msbuild.build.ODataBookStore.props
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ODataBookStore.props
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ODataBookStore.props
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets.pack.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets.build.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets.development.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\scopedcss\bundle\ODataBookStore.styles.css
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.csproj.CopyComplete
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\refint\ODataBookStore.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.pdb
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.genruntimeconfig.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab01_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ref\ODataBookStore.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\appsettings.Development.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\appsettings.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.exe
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.deps.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.runtimeconfig.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.pdb
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.AspNetCore.OData.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.OData.Core.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.OData.Edm.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Spatial.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Entity.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Entity.pdb
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.csproj.AssemblyReference.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.GeneratedMSBuildEditorConfig.editorconfig
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.AssemblyInfoInputs.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.AssemblyInfo.cs
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.csproj.CoreCompileInputs.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.MvcApplicationPartsAssemblyInfo.cs
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.MvcApplicationPartsAssemblyInfo.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets\msbuild.ODataBookStore.Microsoft.AspNetCore.StaticWebAssets.props
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets\msbuild.build.ODataBookStore.props
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ODataBookStore.props
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ODataBookStore.props
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets.pack.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets.build.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets.development.json
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\scopedcss\bundle\ODataBookStore.styles.css
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.csproj.CopyComplete
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\refint\ODataBookStore.dll
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.pdb
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.genruntimeconfig.cache
+D:\FULearning\Summer2023\PRN231\Lab2\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ref\ODataBookStore.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\appsettings.Development.json
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\appsettings.json
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.exe
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.deps.json
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.runtimeconfig.json
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\ODataBookStore.pdb
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.AspNetCore.OData.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.OData.Core.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.OData.Edm.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Microsoft.Spatial.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Entity.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\bin\Debug\net6.0\Entity.pdb
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.csproj.AssemblyReference.cache
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.AssemblyInfoInputs.cache
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.AssemblyInfo.cs
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.csproj.CoreCompileInputs.cache
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.MvcApplicationPartsAssemblyInfo.cs
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.MvcApplicationPartsAssemblyInfo.cache
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets\msbuild.ODataBookStore.Microsoft.AspNetCore.StaticWebAssets.props
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets\msbuild.build.ODataBookStore.props
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ODataBookStore.props
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ODataBookStore.props
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets.pack.json
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets.build.json
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\staticwebassets.development.json
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\scopedcss\bundle\ODataBookStore.styles.css
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.csproj.CopyComplete
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\refint\ODataBookStore.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.pdb
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ODataBookStore.genruntimeconfig.cache
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\Lab02_BookStoreOData8\Lab02_BookStoreOData8\ODataBookStore\obj\Debug\net6.0\ref\ODataBookStore.dll

@@ -1,0 +1,78 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+<div class="d-flex align-items-center justify-content-center" style="height: 87vh">
+<form id="loginForm">
+        <h2 class="text-center">Login</h2>
+        <div class="text-danger text-center" id="MessageError"></div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="username">Username:</label>
+            <input class="col-8" type="text" id="username" name="username" />
+    </div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="password">Password:</label>
+            <input class="col-8" type="password" id="password" name="password" />
+    </div>
+        <div class="form-group text-center">
+        <button type="submit" id="loginButton" class="btn btn-info  text-white">Login</button>
+        </div>
+        <div class="text-center">
+            <a href="Register">Register</a>
+        </div>
+</form>
+</div>
+
+<script type="text/javascript" >
+    $(document).ready(function () {
+        $('#loginForm').submit(function (event) {
+            event.preventDefault(); 
+
+            $.ajax({
+                url: 'https://localhost:7065/api/User/SignIn',
+                type: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                
+                data: JSON.stringify({
+                    userName: $('#username').val(),
+                    password: $('#password').val()
+                }),
+                success: function (response) {
+                    sessionStorage.setItem('token', response);
+                    GetInforUser(response)
+                },
+                error: function () {
+                    $('#MessageError').text('Login failed.');
+                    console.error('Login failed.');
+                }
+            });
+        });
+
+        function GetInforUser(token){
+            $.ajax({
+                url: 'https://localhost:7065/api/User/Infor',
+                type: 'GET',
+                headers: {
+                    'Authorization': 'Bearer ' + token,
+                    'Content-Type': 'application/json'
+                },
+
+                success: function (response) {
+                    sessionStorage.setItem('role', response["role"] == 0 ? "Admin" : "User");
+                    window.location.href = '/Book';
+                },
+                error: function () {
+                    console.error('Login failed.');
+                }
+            });
+        }
+    });
+
+</script>
+

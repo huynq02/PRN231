@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+</head>
+<body>
+  <h1>Search Directors</h1>
+
+    <!--******************************************Form*****************************************************************-->
+    <form action="/" id="searching" method="get">
+        <input name="Id" id="Id" type="text" placeholder="Id" />
+        <button id="btn" type="submit" value="search">Search</button>
+    </form>
+    <a href="Create.html">Create</a>
+    <!--******************************************Table*****************************************************************-->
+    <label id="labelApi"></label>
+    <table border="1">
+        <thead>
+            <td> BookId </td>
+            <td> Title </td>
+            <td> Author </td>
+        </thead>
+        <tbody id="tableData"></tbody>
+    </table>
+
+    <form id="bookForm">
+        <table>
+            <tr>
+                <td><input name="bookId" id="bookId" type="text" placeholder="Book Id" /></td>
+                <td><input name="title" id="title" type="text" placeholder="Title" /></td>
+                <td>
+                    <select name="authorId" id="authorId">
+                        <!-- Options will be dynamically added here -->
+                    </select>
+                </td>
+                <td><button id="btnAdd" type="submit" value="Add">Add new</button></td>
+            </tr>
+        </table>
+    </form>
+
+<script type="text/javascript">
+$(document).ready(function () {
+  var API = "http://localhost:5000/api/Book/List/";
+loadData();
+function loadData(){
+  $.ajax({
+    type: "get",
+    url: API,
+    success: async function (response) {
+      console.log(response);
+      var table = $("#tableData");
+      $(table).empty();
+
+      for (const element of response) {
+        var row = $('<tr></tr>');
+        $(row).append('<td>' + element.bookId + '</td>');
+        $(row).append('<td>' + element.title + '</td>');
+
+        try {
+          var authorName = await getName(element.authorId);
+          $(row).append('<td>' + authorName + '</td>');
+        } catch (error) {
+          console.error(error);
+          $(row).append('<td>Error retrieving author name</td>');
+        }
+
+        $(table).append(row);
+      }
+    }
+  });}
+
+  $('#btn').click(function (e) {
+    e.preventDefault();
+    var Id = $('#Id').val();
+
+    $.ajax({
+      type: "get",
+      url: API + Id,
+      success: async function (response) {
+        console.log(response);
+        var table = $("#tableData");
+        $(table).empty();
+
+        for (const element of response) {
+          var row = $('<tr></tr>');
+          $(row).append('<td>' + element.bookId + '</td>');
+          $(row).append('<td>' + element.title + '</td>');
+
+          try {
+            var authorName = await getName(element.authorId);
+            $(row).append('<td>' + authorName + '</td>');
+          } catch (error) {
+            console.error(error);
+            $(row).append('<td>Error retrieving author name</td>');
+          }
+
+          $(table).append(row);
+        }
+      }
+    });
+  });
+
+  $("#bookForm").submit(function (e) {
+    e.preventDefault(); // Prevent the default form submission
+
+    var formData = new FormData();
+
+    // Get the form values
+    var bookId = $("#bookId").val();
+    var title = $("#title").val();
+    var authorId = $("#authorId").val();
+
+    // Append the form data to the FormData object
+    formData.append("bookId", bookId);
+    formData.append("title", title);
+    formData.append("authorId", authorId);
+
+    // Make the AJAX POST request
+    $.ajax({
+      type: "POST",
+      url: "http://localhost:5000/api/Book/Add",
+      data: formData,
+      processData: false,
+      contentType: false,
+      success: function (response) {
+        // Handle the success case
+        console.log("Book created successfully");
+        loadData();
+      },
+      error: function (xhr, status, error) {
+        // Handle the error case
+        console.error("Error creating book:", error);
+      }
+    });
+  });
+
+  populateAuthorDropdown();
+
+  function getName(authorId) {
+    return new Promise(function (resolve, reject) {
+      $.ajax({
+        type: "get",
+        url: "http://localhost:5000/api/Author/List",
+        success: function (response) {
+          var author = response.find(function (author) {
+            return author.authorId === authorId;
+          });
+
+          if (author) {
+            resolve(author.name);
+          } else {
+            reject("Author not found");
+          }
+        },
+        error: function (error) {
+          reject("Error retrieving author data: " + error);
+        }
+      });
+    });
+  }
+
+  function populateAuthorDropdown() {
+    var authorDropdown = $("#authorId");
+
+    $.ajax({
+      type: "GET",
+      url: "http://localhost:5000/api/Author/List",
+      success: function (response) {
+        response.forEach(function (author) {
+          var option = $("<option></option>")
+            .val(author.authorId)
+            .text(author.name);
+          $(authorDropdown).append(option);
+        });
+      },
+      error: function (xhr, status, error) {
+        console.error("Error retrieving author list:", error);
+      }
+    });
+  }
+});
+</script>
+</body>
+</html>

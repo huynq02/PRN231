@@ -1,0 +1,75 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+@{
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+<div class="d-flex align-items-center justify-content-center" style="height: 87vh">
+    <form id="registerForm">
+        <h2 class="text-center">Register</h2>
+        <div class="text-danger text-center" id="MessageError"></div>
+        <div class="form-group row m-1">
+            <label class="col-4" for="Name">Name</label>
+            <input class="col-8" id="Name" name="Name"/>
+        </div>
+
+        <div class="form-group row m-1">
+            <label class="col-4" for="Username">Username </label>
+            <input class="col-8" id="Username" name="Username"/>
+        </div>
+
+        <div class="form-group row m-1">
+            <label class="col-4" for="Password"> Password</label>
+            <input class="col-8" type="password" id="Password" name="Password"/>
+        </div>
+
+        <div class="form-group row m-1">
+            <label class="col-4" for="Role">Role</label>
+            <select class="col-8" id="Role" name="Role">
+                <option value=0> Admin </option>
+                <option value=1> User</option>
+            </select>
+        </div>
+
+        <div class="form-group text-center">
+            <input type="submit" value="Register" class="btn btn-success" />
+        </div>
+        <div class="text-center">
+            <a href="Login">Back to Login</a>
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('#registerForm').submit(function (event) {
+            event.preventDefault();
+           
+            $.ajax({
+                url: 'https://localhost:7065/api/User/SignUp',
+                type: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+
+                data: JSON.stringify({
+                    name: $('#Name').val(),
+                    userName: $('#Username').val(),
+                    password: $('#Password').val(),
+                    role: parseInt($('#Role').val())
+                }),
+                success: function (response) {
+                    window.location.href= '/Login'
+                },
+                error: function () {
+                    $('#MessageError').text('Username duplicated.');
+                    console.error('Login failed.');
+                }
+            });
+        });
+    });
+
+</script>

@@ -1,0 +1,45 @@
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\appsettings.json
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\BusinessObjects.deps.json
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\BusinessObjects.runtimeconfig.json
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\BusinessObjects.dll
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\BusinessObjects.pdb
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.csproj.AssemblyReference.cache
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.AssemblyInfoInputs.cache
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.AssemblyInfo.cs
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.csproj.CoreCompileInputs.cache
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.dll
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\refint\BusinessObjects.dll
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.pdb
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.genruntimeconfig.cache
+D:\FULearning\Summer2023\PRN231\Lab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\ref\BusinessObjects.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\appsettings.json
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\BusinessObjects.deps.json
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\BusinessObjects.runtimeconfig.json
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\BusinessObjects.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\BusinessObjects.pdb
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.csproj.AssemblyReference.cache
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.AssemblyInfoInputs.cache
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.AssemblyInfo.cs
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.csproj.CoreCompileInputs.cache
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\refint\BusinessObjects.dll
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.pdb
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.genruntimeconfig.cache
+E:\FPT University\PRN231\PRN231hihi\PRN231hihi\HE150995_NguyenNgocMinhLab1\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\ref\BusinessObjects.dll
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\appsettings.json
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\BusinessObjects.deps.json
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\BusinessObjects.runtimeconfig.json
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\BusinessObjects.dll
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\bin\Debug\net6.0\BusinessObjects.pdb
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.csproj.AssemblyReference.cache
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.AssemblyInfoInputs.cache
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.AssemblyInfo.cs
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.csproj.CoreCompileInputs.cache
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.dll
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\refint\BusinessObjects.dll
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.pdb
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\BusinessObjects.genruntimeconfig.cache
+E:\FPT University\PRN231\lab\lab1\Lab01_ASP.NETCoreWebAPI\Lab01_ASP.NETCoreWebAPI\BusinessObjects\obj\Debug\net6.0\ref\BusinessObjects.dll

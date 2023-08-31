@@ -1,0 +1,41 @@
+﻿@page
+@model Q2.Pages.moviesModel
+@{
+}
+
+<form method="get">
+<input type="text" name="Id" placeholder="Id"></input>
+<input type="submit" value="search"></input>
+</form>
+<a href="~/CreateMovie">Create new Book</a>
+<div class="row">
+<div class="col">
+@if (Model.moviesDto.Count > 0)
+{
+<table class="table">
+<thead>
+<tr>
+<td>BookId</td>
+<td>Title</td>
+<td>Author</td>
+</tr>
+</thead>
+<tbody>
+@foreach (var o in Model.moviesDto)
+{
+<tr>
+<td>@o.MovieId</td>
+<td>@o.Title</td>
+<td>@o.PublishDate</td>
+ <td>@o.StudioName</td>
+
+</tr>
+}
+</tbody>
+</table>
+}
+</div>
+
+</div> 
+
+
